@@ -3,6 +3,7 @@
  load('c1LeftUpperCorner.mat')
 % load('m1c05A55Density')
 % 
+% BigU is a matrix with saved numerical solutions along the columns with the first entry in each column indicating the time that the solution is saved at. 
 % totalPop
 endJ = size(BigU, 2);
 totalPop = zeros(1, size(BigU,2));
