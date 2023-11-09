@@ -4,9 +4,9 @@ The critical amplitudes are found via the linear system and calculating the corr
 
 How to recreate freq1bisect.mat:
 
-First run getDotData_uott_freq1.m. This will loop through many different grids so that you can see the convergence for your eigenvalues. The last file created will give you your first intervals on amplitudes. 
+First run getDotData_uott_freq1.m. This will loop through many different grids so that you can see the convergence for your eigenvalues. The last file created will give you your first intervals on amplitudes. You'll notice that the numerical parameters, particularly the temporal parameter is small here, due to the fact we are using model parameters for which the system is close to a bifurcation.
 
-Then you can bisect on these amplitudes using bisectForAstar.m. 
+Then you can bisect on these amplitudes within each interval using bisectForAstar.m. 
 
 Saving your workspace will give you freq1bisect.mat.
 
