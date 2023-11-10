@@ -15,7 +15,7 @@ Figure 3 and S1:
 Constand niche size - green curves (period T = 8): k = 0.005, h_0 = 0.005, a = [20, 5]; - blue curve figure 3: (period T = 1): k = 5e-5; h_0 = 0.005, a = [20, 5]; blue curve figure S1: (period T = 1): k = 1e-4; h_0 = 0.0025, a = [20, 5];
 Varying niche size - green curves (period T = 8): k = 0.0125, h_0 = 0.01, a = [80, 60]; - blue curves (period T = 1): k =1.15625e-3, h_0 = 0.0025, a = [80, 60].
 
-Figure 4: 
+Figure 4 and 5: 
 
 Constant niche size: c = 1, a = [20,5]:
 |Amplitude | Period T = 8: (k, h_0) | Period T = 4: (k, h_0) | Period T = 2: (k, h_0) | Period T = 1: (k, h_0) |
